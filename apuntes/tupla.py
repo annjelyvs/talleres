@@ -9,7 +9,7 @@
 # print(tupla3)
 # # no se utiliza append-no se pueden modificar
 
-# #.count(cuenta el numerp de veces que se repite un item 
+# #.count(cuenta el numero de veces que se repite un item 
 # numeros=(1,2,3,1,4,1,3)
 # print(numeros.count(1))
 
@@ -17,10 +17,10 @@
 
 # #cambiar de tupla a lista 
 # mi_tupla=(1,2,3)
-# mi_lista=list(mi_tupla)#(list=lista)
+# mi_lista=list(mi_tupla)    #(list=lista)
 # print(mi_lista)
 
 #cambiar de lista a tupla
 # mi_lista=[4,5,6]
-# mi_tupla=tuple(mi_lista)#(tuple=tupla)
+# mi_tupla=tuple(mi_lista)   #(tuple=tupla)
 # print(mi_tupla)
