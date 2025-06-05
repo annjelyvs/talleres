@@ -55,4 +55,4 @@ elif oper== "/":
     print(f"\nSu resultado de la division es {divici:.1F}") # se utiliza el ".1F" para decidir cuantos decimales desea
     
 else:
-    print("no coincide con ningun cimbolo de operacion")
+    print("no coincide con ningun simbolo de operacion")
