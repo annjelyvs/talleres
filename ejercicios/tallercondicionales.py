@@ -4,11 +4,11 @@
 # #1. Verificar si un numero es positivo, negativo o cero
 # print("primer ejercicio ")
 
-# numero= float(input("Ingrese un numero positivo, negetivo o cero: "))
-# if numero >0:
-#     print(f"Su numero {numero} es positivo")
-# elif numero <0:
-#     print(f"Su numero {numero} es negativo")
+# num33= float(input("Ingrese un numero positivo, negetivo o cero: "))
+# if num33 >0:
+#     print(f"Su numero {num33} es positivo")
+# elif num33 <0:
+#     print(f"Su numero {num33} es negativo")
 # else:
 #     print("Su numero es cero")
 
@@ -16,220 +16,202 @@
 # #2. Calcular el mayor de dos numeros ingresados 
 # print("segundo ejercicio")
 
-# num= int(input("Ingresa un numero: "))
-# num1= int(input("Ingresa un segundo numero: "))
-# if num > num1:
-#     print(f"El numero {num} es mayor que {num1}")
+# num28= int(input("Ingresa un numero: "))
+# num19= int(input("Ingresa un segundo numero: "))
+# if num28 > num19:
+#     print(f"El numero {num28} es mayor que {num19}")
 # else:
-#     print(f"El numero {num1} es mayor que {num}")
+#     print(f"El numero {num19} es mayor que {num28}")
 
 
-# #3. Determinar si un numero es par o impar
-# print("tercer ejercicio")
+# #DETERMINA SI ES UN NUMERO ES PAR O IMPAR
+# print("EJERCICIO 3")
 
-# num2= int(input("Ingrse un numero: "))
-# if numero %2==0:
-#     print(f"El numero {num2} es par")
+# nume2= (float(input("Ingresa un numero : ")))
+# if nume2 %2==0:
+#     print("el numero es par ")
 # else:
-#     print(f"El numero {num2} es impar")
+#     print("el numero es impar")
+    
 
+# #DADO UN NUMERO, VERIFICA SI ESTA ENTRE   10 y 20
+# print(f"cuarto ejercicio")
 
-# #4.Dado un número, verifica si está entre 10 y 20
-# print("cuato ejercicio")
-
-# num11= (float(input("Ingresa el numero a verificar: ")))
-# if num11 >= 10 and num11 <= 20:
-#     print("El numero está entre el 10 y el 20")
+# num333=int(input("ingrese un numero: "))
+# if num333 >=10 and num333 <=20:
+#     print(f"el numero {num333} esta entre 10 y 20")
 # else:
-#     print("El numero no está entre el 10 y el 20")
+#     print(f"el numero {num333} no esta entre 10 y 20")
+    
+    
+# #DADOS TRES NUMEROS, ENCUENTRA EL MAYOR UTILIZANDO CONDICIONALES 
+# print("ejercicio numero 5")
+# print(f"quinto ejercicio")
+# num70=int(input("ingrese un numero: "))
+# num5=int(input("ingrese un segundo numero: "))
+# num9=int(input("ingrese un tercer numero: "))
 
-# #5. Dados tres números, encuentra el mayor usando condicionales
-# print("\nMayor de tres numeros")
-# num00=int(input("Ingrese un primer numero a determinar: "))
-# num01=int(input("Ingrese un segundo numero a determinar: "))
-# num02=int(input("Ingrese un tercer numero a determinar: "))
-
-# if num00> num01 and num00 > num02:
-#     print(f"El numero {num00} es mayor que los numeros {num01} y {num02}")
-# elif num01 > num00 and num01>num02:
-#     print(f"El numero {num01} es mayor que los numeros {num00} y {num02}")
+# if num70 >= num5 and num70 >= num9:
+#     print(f"el numero {num70} es mayor")
+# elif num5 >= num70 and num70>= num9:
+#     print(f"el numero {num5} es mayor")
 # else:
-#     print(f"El numero {num02} es mayor que los numeros {num00} y {num01}")
+#     print(f"el numero {num9} es mayor")
 
-# #6. Calcula el precio final con un 10% de descuento si el total es mayor a $100
-# print("\nCalcular el precio final con descuento de 10%")
-# total= float(input("Ingrese el total de compra: $"))
-# if total> 100:
-#     total1=total*0.1
-#     print(f"Precio final: ${total1:.1f}")
+# #calcule el 10% de descuento si el total es mayor a $100
+# print("ejercicio numero 6")
+
+# facture=float(input("ingrese el monto total: "))
+# if facture > 100:
+#     print(f"el descuento es de {facture * 0.1:.1F} ")
 # else:
-#     print(f"Precio final por su compra: ${total}")
+#     print(f"su monto fue de {facture} por lo cual no tiene descuento")
+    
+# #VERIFICA SI UNA PERSOAN PUEDE VOAR ( MAYOR O IGUAL A 18 AÑOS)
+# print("ejercicio numero 7")
 
-# # #7. Verifica si una persona puede votar (mayor o igual a 18 años).
-# # print("\nVerificar si puede votar")
-
-# edad= int(input("Ingrese su edad: "))
-# if edad >=18:
-#     print("Usted puede votar")
+# edad2=int(input("ingrese su edad: "))
+# if edad2 >= 18:
+#     print(f" puede votar ya que tiene {edad2}")
 # else:
-#     print("Usted no puede votar")
+#     print(f"no puede votar ya que tiene {edad2}")
 
-#8. Dado el precio y tipo de cliente (VIP o normal), aplica un descuento del 20% solo a VIP.
-# print("\nCliente VIP o NORMAL")
 
-# precio= float(input("Ingrese el precio: $ "))
-# cliente= input("Ingrese a que tipo de cliente pertenece (VIP/Normal): ").upper()
-# if cliente== "VIP":
-#     precio0= precio*0.2
-#     print(f"Precio final: ${precio0:.1f}")
+# #DADO EL PRECIO Y  TIPO DE CLIENTE ( VIP  o normal), APLICA UN DESCUENTO DEL 20% SOLO A VIP
+# print("ejercicio numero 8 ")
+
+# precio=float(input("ingrese el precio: "))
+# tipo_cliente=input("ingrese si es tipo de cliente VIP o normal: ").lower()
+
+# if tipo_cliente == "VIP":
+#     print(f"tu descuento es de {precio*0.2:.2F}")
 # else:
-#     print(f"Precio final para cliente normal: ${precio}")
+#     print(f"no tienes descuento ya que eres cliente {tipo_cliente}")
 
-# #9. Determina si un número es múltiplo de 5 y de 3 al mismo tiempo.
-# print("\nMultiplo de 5 y 3")
+#DETERMINA SI UN NUMERO ES MULTIPLO DE  Y DE 3 AL MISMO TIEMPO
+# print("ejercicio numero 9")
 
-# nume= int(input("Ingrese un número: "))
+# multiplo=int(input("ingrese un numero: "))
 
-# if nume% 3 ==0 and nume% 5 == 0:
-#     print(f"El número {nume} SI es múltiplo de 3 y 5")
+# if multiplo % 5 ==0 and multiplo %3 == 0:
+#     print(f"{multiplo} es multiplo de 5 y 3")
 # else:
-#     print(f"El número {nume} NO es múltiplo de 3 y 5")
+#     print(f"el numero{multiplo} no es multiplo de 5 y 3")
 
-# #10. Dado un número, verifica si es divisible entre dos números dados.
-# print("\nNúmero divisible entre dos números")
 
-# number= int(input("Ingrese el número a verificar: "))
-# divi1 = int(input("Ingrese primer divisor: "))
-# divi02 = int(input("Ingrese segundo divisor: "))
+# #DADO UN NUMERO, VERIFICA SI ES DIVISIBLE ENTRE DOS NUMEROS DADOS
+# print(" EJERCICIO NUMERO 10")
 
-# if number %divi1 ==0 and number% divi02 ==0:
-#     print(f"El número registrado {number} SI es divisible entre {divi1} y {divi02}")
+# num22=int(input("ingresa un numero:  "))
+# num23=int(input("ingrese el primero numero divisor: "))
+# num24=int(input("ingrese el segundo numero divisor:  "))
+
+# if num22 % num23 == 0 and num22 % num24 ==0:
+#     print(f"{num22} es divicible entre {num23} y {num24}")
 # else:
-#     print(f"El número registrado {number} NO es divisible entre {divi1} y {divi02}")
+#     print(f"{num22} no es divisible entre {num23} y {num24}")
 
 
-# print("EJERCICIOS CON LISTAS (CON CONDICIONALES)")
-# #11. Crea una lista con 5 números. Si el tercer número es mayor que 10, muestra “Mayor a 10”, si no, muestra “Menor o igual a 10”.
-# print("\nmayor a 10, menor o igual a 10")
+# print("EJERCICIOS CON LISTAS Y CON CONDICIONALES ")
 
-# num = int(input(f"Ingrese un número : "))
-# nume = int(input(f"Ingrese un segundo número : "))
-# numer = int(input(f"Ingrese un tercer número : "))
-# numero = int(input(f"Ingrese un cuarto número : "))
-# numeroo = int(input(f"Ingrese un quinto número : "))
-# numero= [num,nume,numer,numero,numeroo]
-# print(numero)
-
-# if numero[2] > 10:
-#     print(f"El tercer número ingresado {numero[2]} es mayor a 10")
+# print("ejercicio numero 11")
+# #crear lista y mostrar mayor que 10 o menor que 10
+# lista=[5,10,5,6,15]
+# if lista[2]>10:
+#     print(f"el numero {lista[2]}  es mayor a 10")
 # else:
-#     print(f"El tercer número ingresado {numero[2]} es menor o igual a 10")
+#     print(f"el numero {lista[2]} es menor o igual a 10")
+    
+# print("ejercicio numero 12")   
 
-# #12. Verifica si el número 7 está en la lista [3, 5, 7, 9]. Si está, muestra “Está en la lista”, si no, muestra “No está en la lista”.
-# print("\nNumero 7 en lista")
-# list= [3, 5, 7, 9]
-# if 7 in list:
-#     print("El numero 7 SI está en la lista")
+# lista2=[3,5,7,9]
+# if 7 in lista2:
+#     print("el numero 7 esta en la lista")
 # else:
-#     print("El numero 7 NO está en la lista")
+#     print("el numero 7 no esta en la lista")
+    
+# print("ejercicio numero 13")
 
-# #13. Suma los dos primeros elementos de la lista [4, 6, 2, 8]. Si la suma es mayor que 10, muestra “Suma alta”, de lo contrario, muestra “Suma baja”
-#print("\nsuma alta o suma baja")
-# list00=[4, 6, 2, 8]
-# sume = list00[0] + list00[1]
-# if sume > 10:
-#     print("Suma alta")
+# lista3=[4,6,2,8]
+# suma= lista3[0]+lista3[1]
+# if suma >10:
+#     print(f"la suma es alta ya que el resultado es {suma}")
 # else:
-#     print("Suma baja")
+#     print(f"la suma es baja ya que el resultado es {suma}")
 
-#14. Dada la lista ["Ana", "Luis", "Pedro", "Marta"], muestra el último nombre. Si ese nombre es “Marta”, muestra “Nombre correcto”, si no, “Nombre diferente”
-#print("\nNombre correcto")
-# name= ["Ana", "Luis", "Pedro", "Marta"]
-# ulti_name= name[-1]  
-# if ulti_name == "Marta":
-#     print("Nombre correcto")
+# print("ejercicio numero 14")
+
+# lista4=["ana","luis","pedro", "marta"]
+# ulti=lista4[3]
+# if ulti=="marta":
+#     print(f"nombre {ulti} es correcto")
 # else:
-#     print("Nombre diferente")
+#     print(f"el nombre {ulti} no es correcto")
 
-# #15. Crea una lista con tres colores. Cambia el segundo color solo si es igual a "azul", y muestra la lista actualizada.
-# print("\nLista de colores")
-# colors= ["magenta", "azul", "dorado"]
-# print(colors)
-# if colors[1] == "azul":
-#     colors[1] = "amarillo" 
-#     print(f"Se ha actualizado la lista {colors}")
+# print("ejercicio numero 15")
+
+# colores = ["rojo", "azul", "verde"]
+# if colores[1] == "azul":
+#     colores[1] = "amarillo" 
+# print(colores)
+
+
+# print("EJERCICIOS DE TUPLAS CON CONDICIONALES")
+# print("ejercicio numero 16")
+
+# tupla=(5,8,12,20)
+# if tupla[0]< tupla[-1]:
+#     print("orden ascendente")
 # else:
-#     print("La lista no se ha actualizado")
+#     print("orden desendente")
 
-# print("EJERCICIOS CON TUPLAS (CON CONDICIONALES)")
-# #16. Crea una tupla con los valores (5, 8, 12, 20). Si el primer valor es menor que el último, muestra “Orden ascendente”, si no, “Orden descendente”.
-# print("\nOrden ascendente o descendente")
-# tupla= (5, 8, 12, 20)
-# print(tupla)
-# if tupla[0] < tupla[-1]:
-#     print("Orden ascendente")
+# print("ejercicio numero 17")
+# tupla2=(25,32,28)
+# if tupla2[1]>30:
+#     print("edad mayor a 30")
 # else:
-#     print("Orden descendente")
-
-# #17. Dada la tupla (25, 32, 28), verifica si el segundo valor es mayor a 30. Si lo es, muestra “Edad mayor a 30”, si no, “Edad menor o igual a 30”.
-# print("\nEdad mayor, menor o iguala a 30")
-# ages= (25, 32, 28)
-#print(ages)
-# if ages[1] > 30:
-#     print("Edad mayor a 30")
-# else:
-#     print("Edad menor o igual a 30")
-
-#18. Convierte la tupla (1, 2, 3) a lista, cambia el segundo valor a 10 solo si es igual a 2, luego vuelve a convertirla en tupla y muéstrala.
-#print("\nCambiar segundo valor a 10")
-# tupla1 = (1, 2, 3)
-# print("Tupla original", tupla1)
-# lista= list(tupla1)
+#     print("edad menor o igual a 30")
+    
+# print("ejercicio numero 18")
+# tupla = (1, 2, 3)
+# lista = list(tupla)
 # if lista[1] == 2:
-#     lista[1]= 10
-# tupla2 = tuple(lista)  
-# print("Tupla modificada", tupla2)
+#     lista[1] = 10
+# tupla_resultante = tuple(lista)
+# print(tupla_resultante)
 
-# #19. Dada la tupla (4, 9), accede al segundo valor. Si es mayor que 5, muestra “Coordenada alta”, si no, “Coordenada baja”.
-# print("\nVerificar si es coordenada alta o baja")
-# coorde= (4, 9)
-# print(coorde)
-# if coorde[1] >5:
-#     print("Coordenada alta")
+# print("ejercicio 19")
+# tupla4=(4, 9) 
+# Valor= tupla[1]
+# if Valor>5:
+#     print("coordenada alta") 
 # else:
-#     print("Coordenada baja")
+#    print("coordenada baja") 
 
-# #20. Compara si las tuplas (3, 4) y (3, 5) son iguales. Si lo son, muestra “Tuplas iguales”, si no, “Tuplas diferentes”
-# print("\nDeterminar si son tuplas iguales")
-# tupla001 = (3, 4)
-# tupla002 = (3, 5)
-# print(tupla001)
-# print(tupla002)
-# if tupla001 == tupla002:
-#     print("Tuplas iguales")
+# print("ejercicio 20")
+# tupla21=(3, 4) 
+# tupla22=(3, 5) 
+# if tupla21 == tupla22:
+#     print("las tuplas son iguales") 
 # else:
-#     print("Tuplas diferentes")
+#     print("las tuplas son diferentes ")
 
-# # print("EJERCICIOS CON DICCIONARIOS (CON CONDICIONALES)")
-# #21. Crea un diccionario con {"nombre": "Juan", "edad": 17}. Si la edad es mayor o igual a 18, muestra “Adulto”, si no, muestra “Menor de edad”.
-# print("\nAdulto o menor de edad ")
-# dicc1= {"nombre": "Juan", 
-#            "edad": 17}
-# print(dicc1)
-# if dicc1["edad"] >= 18:
-#     print("Adulto")
+# print("ejercicio 21")
+# Dic={"nombre" : "Juan", 
+# "edad":17}
+# if Dic["edad"]>=18:
+#     print("adulto") 
 # else:
-#     print("Menor de edad")
+#     print("usted es menor de edas")
 
-# #22. Crea un diccionario {"nombre": "Lucía", "edad": 20}. Si la edad es mayor a 18, cambia el valor de “edad” a 21. Luego muestra el diccionario
-# print("\nCambiar valor de edad a 21")
-# dic2 = {"nombre": "Lucía", "edad": 20}
-# print(f"Diccionario original {dic2}")
-# if dic2["edad"]> 18:
-#     dic2["edad"] = 21
-# print(f"Diccionario actualizado {dic2}")
+# print("ejercicio 22")
+# Dic2={"nombre": "Lucía", 
+# "edad": 20}
+# if Dic2["edad"] > 18:
+#     Dic2 ["edad"] = 21
+# print(Dic2)
 
-# #23. Crea un diccionario con {"nombre": "Carlos"}. Si la clave “ciudad” no existe, agrégala con el valor “Bogotá” y muestra el diccionario
+# print("ejercicio 23")
 # print("\nagregar clave")
 # dic3 = {"nombre": "Carlos"}
 # print(dic3)
@@ -237,20 +219,16 @@
 #     dic3["ciudad"] = "Bogotá"
 # print(f"Diccionario actualizado {dic3}")
 
-# #24. Dado el diccionario {"producto": "pan", "precio": 1200}, verifica si la clave “precio” existe. Si existe, muestra su valor, si no, muestra “No hay precio”.
-# print("\nMostrar valor de la clave precio")
-# dicc4= {"producto": "pan", "precio": 1200}
-# print(dicc4)
-# if "precio" in dicc4:
-#     print(f"Precio", dicc4["precio"])
+# print("ejercicio 24")
+# producto = {"producto": "pan", "precio": 1200}
+# if "precio" in producto:
+#     print(producto["precio"])
 # else:
 #     print("No hay precio")
 
-# #25. Crea un diccionario con {"pan": 1200, "leche": 2000}. Si “pan” está en el diccionario, muestra su precio; si no, muestra “Producto no disponible”
-# print("\nmostrar el precio del pan")
-# factura= {"pan": 1200, "leche": 2000}
-# print(factura)
-# if "pan" in factura:
-#     print(f"Precio del pan:",factura["pan"])
+# print("ejercicico 25")
+# precios = {"pan": 1200, "leche": 2000}
+# if "pan" in precios:
+#     print(precios["pan"])
 # else:
 #     print("Producto no disponible")
